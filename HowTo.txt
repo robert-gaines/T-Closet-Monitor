@@ -1,0 +1,17 @@
+Telecommunications Closet Monitor
+---------------------------------
+
+Instructions
+------------
+
+1) Retrieve T Closet Monitoring System Prototype from the office
+2) Image a *nix OS on a micro-SD card
+3) Configure *nix OS
+4) Mount door sensors, camera, and PI assembly
+5) Install Python dependencies
+6) chmod u+x closet_monitor.py
+7) Execute closet_monitor.py -> "python3 closet_monitor.py"
+8) Enter mail notification parameters (note: current version is set to use the g-mail smtp relay.
+                                             Tweak the script if you want to use the campus relay.)
+9) Test the system by opening the door and then looking for an e-mail in the inbox of the recipient account
+	(Note: the debug text will let you know if the sensor is working)
